@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Сахар 1", "description": "Белый сахар высокого качества", "price": 60, "weights": [500, 1000], "image": "/assets/img/sugar1.jpg", "address": "Москва, ул. Сладкая, д.1" },
+  { "id": 2, "name": "Соль 1", "description": "Каменная соль", "price": 40, "weights": [500, 1000], "image": "/assets/img/salt1.jpg", "address": "Москва, ул. Солёная, д.2" },
+  { "id": 3, "name": "Сахар 2", "description": "Сахар тростниковый", "price": 80, "weights": [500, 1000], "image": "/assets/img/sugar2.jpg", "address": "Москва, ул. Сладкая, д.3" },
+  { "id": 4, "name": "Соль 2", "description": "Морская соль", "price": 50, "weights": [500, 1000], "image": "/assets/img/salt2.jpg", "address": "Москва, ул. Солёная, д.4" },
+  { "id": 5, "name": "Сахар 3", "description": "Сахар мелкий", "price": 55, "weights": [500, 1000], "image": "/assets/img/sugar3.jpg", "address": "Москва, ул. Сладкая, д.5" },
+  { "id": 6, "name": "Соль 3", "description": "Экстра соль", "price": 45, "weights": [500, 1000], "image": "/assets/img/salt3.jpg", "address": "Москва, ул. Солёная, д.6" },
+  { "id": 7, "name": "Сахар 4", "description": "Сахар кусковой", "price": 70, "weights": [500, 1000], "image": "/assets/img/sugar4.jpg", "address": "Москва, ул. Сладкая, д.7" },
+  { "id": 8, "name": "Соль 4", "description": "Йодированная соль", "price": 52, "weights": [500, 1000], "image": "/assets/img/salt4.jpg", "address": "Москва, ул. Солёная, д.8" },
+  { "id": 9, "name": "Сахар 5", "description": "Коричневый сахар", "price": 90, "weights": [500, 1000], "image": "/assets/img/sugar5.jpg", "address": "Москва, ул. Сладкая, д.9" },
+  { "id": 10, "name": "Соль 5", "description": "Гималайская соль", "price": 100, "weights": [500, 1000], "image": "/assets/img/salt5.jpg", "address": "Москва, ул. Солёная, д.10" }
+]
