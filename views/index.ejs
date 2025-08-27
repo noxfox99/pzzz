@@ -1,0 +1,12 @@
+<h1>Каталог товаров</h1>
+<div class="products">
+  <% products.forEach(p => { %>
+    <div class="product">
+      <a href="/product/<%= p.id %>">
+        <img src="<%= p.image %>" alt="<%= p.name %>" width="150">
+        <h2><%= p.name %></h2>
+      </a>
+      <p><%= p.price %> ₽</p>
+    </div>
+  <% }) %>
+</div>

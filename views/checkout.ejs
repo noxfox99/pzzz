@@ -1,0 +1,8 @@
+<h1>Оплата товара</h1>
+<p>Вы выбрали: <%= product.name %>, вес: <%= weight %> г</p>
+
+<form action="/success/<%= product.id %>" method="post">
+  <label><input type="radio" name="method" value="card" required> Оплата картой</label><br>
+  <label><input type="radio" name="method" value="crypto" required> Оплата криптой</label><br>
+  <button type="submit">Оплатить</button>
+</form>

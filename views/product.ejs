@@ -1,0 +1,14 @@
+<h1><%= product.name %></h1>
+<img src="<%= product.image %>" alt="<%= product.name %>" width="250">
+<p><%= product.description %></p>
+<p>Цена: <%= product.price %> ₽</p>
+
+<form action="/checkout/<%= product.id %>" method="get">
+  <label>Выберите вес:</label>
+  <select name="weight">
+    <% product.weights.forEach(w => { %>
+      <option value="<%= w %>"><%= w %> г</option>
+    <% }) %>
+  </select>
+  <button type="submit">Купить</button>
+</form>
